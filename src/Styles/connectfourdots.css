@@ -1,0 +1,92 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+    text-align: center; 
+    /* overflow-y: hidden; */
+}
+body{
+    background-color:#15616d;
+}
+.mainc
+{
+    margin-top:20px;
+    font-size:xx-large;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.title
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.board
+{
+    width: 342px;
+    height: 355px;
+    padding-top: 1px;
+    margin: auto;
+    border-left: 12px solid #d00000;
+    border-right: 12px solid #d00000;
+    border-bottom: 12px solid #d00000;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+    background:#03045e;
+     
+}
+.row1{
+    background:#03045e;
+    gap: 5px;
+    margin-left: 4px;
+}
+.slot {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: lightgray;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+.img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.btn2 {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #40bccf;
+    color: #15616d;
+    background-color: #ffffff;
+    border-radius: 25px; 
+    transition: background-color 0.3s, color 0.3s;
+    margin: 50px;
+  }
+  
+  .btn2:hover {
+    background-color: #15616d;
+    color: #ffffff;
+  }
+  .game-over-message
+  {
+    margin-top: 15px;
+  }
+  
+
+
